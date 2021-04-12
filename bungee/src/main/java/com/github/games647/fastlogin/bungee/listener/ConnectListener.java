@@ -77,7 +77,10 @@ public class ConnectListener implements Listener {
 
         PendingConnection connection = preLoginEvent.getConnection();
         if (!rateLimiter.tryAcquire()) {
-            plugin.getLog().warn("Join limit hit - Ignoring player {}", connection);
+            //plugin.getLog().warn("Join limit hit - Ignoring player {}", connection);
+            plugin.getLog().warn("Join limit hit - Kicking player {}", connection);
+            preLoginEvent.setCancelled(true);
+            preLoginEvent.setCancelReason("§cLe serveur rencontre actuellement un nombre de connexions élevé.\n\n§fMerci de revenir dans quelques minutes !");
             return;
         }
 
