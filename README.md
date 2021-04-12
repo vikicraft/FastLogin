@@ -70,22 +70,27 @@ Possible values: `Premium`, `Cracked`, `Unknown`
 * [Spigot](https://www.spigotmc.org) 1.8.8+
 * Java 8+
 * Run Spigot (or a fork e.g. Paper) and/or BungeeCord (or a fork e.g. Waterfall) in offline mode
-* An auth plugin. Supported plugins
+* An auth plugin.
 
-### Spigot/Paper
+### Supported auth plugins
 
-* [AuthMe (5.X)](https://dev.bukkit.org/bukkit-plugins/authme-reloaded/)
-* [xAuth](https://dev.bukkit.org/bukkit-plugins/xauth/)
-* [LogIt](https://github.com/games647/LogIt)
+#### Spigot/Paper
+
 * [AdvancedLogin (Paid)](https://www.spigotmc.org/resources/advancedlogin.10510/)
+* [AuthMe (5.X)](https://dev.bukkit.org/bukkit-plugins/authme-reloaded/)
 * [CrazyLogin](https://dev.bukkit.org/bukkit-plugins/crazylogin/)
 * [LoginSecurity](https://dev.bukkit.org/bukkit-plugins/loginsecurity/)
-* [UltraAuth](https://dev.bukkit.org/bukkit-plugins/ultraauth-aa/)
+* [LogIt](https://github.com/games647/LogIt)
 * [SodionAuth (2.0+)](https://github.com/Mohist-Community/SodionAuth)
+* [UltraAuth](https://dev.bukkit.org/bukkit-plugins/ultraauth-aa/)
+* [UserLogin](https://www.spigotmc.org/resources/userlogin.80669/)
+* [xAuth](https://dev.bukkit.org/bukkit-plugins/xauth/)
 
-### BungeeCord/Waterfall
+#### BungeeCord/Waterfall
 
 * [BungeeAuth](https://www.spigotmc.org/resources/bungeeauth.493/)
+* [BungeeAuthenticator](https://www.spigotmc.org/resources/bungeecordauthenticator.87669/)
+* [SodionAuth (2.0+)](https://github.com/Mohist-Community/SodionAuth)
 
 ## Network requests
 
